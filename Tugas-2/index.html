@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      body {
+        background-color: lightyellow;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Formulir Pendaftaran Peserta Didik Baru tahun Ajaran 2025/2026
+    </title>
+    <style>
+      .fancy {
+        font-weight: bold;
+        text-shadow: 4px 4px 3px #77f;
+      }
+      label {
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>
+          <p class="fancy">
+            Formulir Pendaftaran Peserta Didik Baru tahun Ajaran 2025/2026
+          </p>
+        </legend>
+
+        <div>
+          <label for="nama-depan"> Nama Depan:</label>
+          <input id="nama-depan" type="text" name="Nama Depan" />
+        </div>
+
+        <div>
+          <label for="nama-belakang">Nama Belakang:</label>
+          <input id="nama-belakang" type="text" name="Nama Belakang" />
+        </div>
+
+        <div>
+          <label for="email">Email:</label>
+          <input id="email" type="email" name="email" />
+        </div>
+
+        <div>
+          <label for="password">Password:</label>
+          <input id="password" type="password" name="password" />
+        </div>
+
+        <div>
+          <label for="tanggal-lahir">Tanggal Lahir:</label>
+          <input id="tanggal-lahir" type="date" name="tanggal" />
+        </div>
+
+        <div>
+          <label>Jenis kelamin:</label>
+
+          <input
+            id="laki_laki"
+            type="radio"
+            name="jenis_kelamin"
+            value="laki-laki"
+          />
+          <label for="laki_laki">Laki-laki</label>
+
+          <input
+            id="perempuan"
+            type="radio"
+            name="jenis_kelamin"
+            value="perempuan"
+          />
+          <label for="perempuan">Perempuan</label>
+        </div>
+
+        <label>Hobi:</label>
+        <select name="hobi">
+          <option value="berenang">Berenang</option>
+          <option value="membaca">Membaca</option>
+          <option value="bermain game">Bermain Game</option>
+          <option value="olahraga">Olahraga</option>
+          <option value="scroll sosmed">Scroll Sosmed</option>
+        </select>
+        <div>
+          <label>Alamat Lengkap:</label>
+          <textarea name="alamat lengkap"></textarea>
+        </div>
+        <div>
+          <input type="submit" name="submit" value="Sikattt" />
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
